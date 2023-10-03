@@ -1,0 +1,29 @@
+/* Reset some default browser styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the text horizontally and vertically in the body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the content takes at least the full viewport height */
+    background-color: #f0f0f0; /* Set your desired background color */
+}
+
+/* Style the heading (H1) */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Set your desired text color */
+    text-transform: uppercase;
+    margin-bottom: 20px; /* Add some spacing below the heading */
+}
+
+/* Style the image */
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
