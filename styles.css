@@ -1,29 +1,21 @@
-/* Reset some default browser styles */
-body, h1 {
-    margin: 0;
-    padding: 0;
-}
-
-/* Center the text horizontally and vertically in the body */
+/* CSS for centering text and adding spacing */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Ensures the content takes at least the full viewport height */
-    background-color: #f0f0f0; /* Set your desired background color */
+    text-align: center;
 }
 
-/* Style the heading (H1) */
-h1 {
+/* Style the header (H1) */
+header h1 {
     font-size: 24px;
     font-weight: bold;
     color: #333; /* Set your desired text color */
     text-transform: uppercase;
-    margin-bottom: 20px; /* Add some spacing below the heading */
+    margin-bottom: 20px; /* Add spacing below the heading */
 }
 
 /* Style the image */
-img {
+main img {
     max-width: 100%; /* Ensure the image doesn't exceed its container's width */
     height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Make the image a block element to center it horizontally */
+    margin: 20px auto; /* Center the image horizontally and add spacing above and below it */
 }
